@@ -29,7 +29,7 @@ def interact_model(input) -> str:
     temperature=1
     top_k=0
     top_p=1
-    models_dir=m
+    models_dir="models"
 
     models_dir = os.path.expanduser(os.path.expandvars(models_dir))
     if batch_size is None:
