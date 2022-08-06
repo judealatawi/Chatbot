@@ -25,7 +25,7 @@ pic = c / 'dependencies/Tabuk-Uni-Logo.png'
 pic=str(pic)
 
 with col1:
-    st.image(pic, width=200)
+    st.image("dependencies/Tabuk-Uni-Logo.png", width=200)
 
 st.markdown(
     """
